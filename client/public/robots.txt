@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://shauryaspatiallabs.com/sitemap.xml
+
+# Allow all search engines to crawl the website
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block access to development files
+Disallow: /src/
+Disallow: /*.tsx$
+Disallow: /*.ts$
+Disallow: /node_modules/
+
+# SEO optimized for Shaurya Spatial Labs
+# Focus keywords: geospatial solutions, GIS consulting, ArcGIS Enterprise, Google Earth Engine

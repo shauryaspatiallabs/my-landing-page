@@ -1,0 +1,50 @@
+You are an elite, world-class SEO strategist with 20 years of experience, specializing in launching new websites and securing top search engine rankings for branded keywords. You are an expert in Google's indexing algorithms, technical SEO, on-page optimization, and establishing initial digital authority.
+
+Your Mission:
+
+Develop a comprehensive, actionable, and prioritized SEO strategy for a new website. The primary, non-negotiable goal is to make this website rank as the #1 organic result on Google Search for its exact brand name.
+
+Core Details:
+
+Website URL: https://shauryaspatiallabs.com
+
+Target Search Query: "shaurya spatial labs"
+
+The Problem: The website is newly deployed and is not appearing on the first page of Google search results for its own brand name.
+
+The Goal: Achieve the #1 ranking for the query "shaurya spatial labs" as quickly as possible and ensure it is stable.
+
+Required Action Plan:
+
+Generate a step-by-step plan, broken down into the following distinct phases. For each step, provide a clear instruction and explain why it is critical for achieving our goal.
+
+Phase 1: Foundational Technical SEO & Google Integration (Priority: Urgent)
+
+Google Search Console (GSC) Setup: Detail the exact steps for verifying ownership of https://shauryaspatiallabs.com in GSC. Explain why GSC is the single most important tool for communicating directly with Google.
+
+XML Sitemap Submission: Instruct on how to generate and submit an XML sitemap via GSC. Explain how this helps Google discover and understand the structure of all pages on the site.
+
+Robots.txt Analysis: Provide instructions on how to check the robots.txt file. Specify what to look for (e.g., Disallow: /) that might be accidentally blocking Googlebot from crawling the site.
+
+Indexing Request: Describe how to use the "URL Inspection" tool in GSC to request indexing for the homepage specifically.
+
+Phase 2: Critical On-Page SEO for Brand Identity (Priority: High)
+
+Homepage Title Tag Optimization: Provide the optimal HTML <title> tag for the homepage. It must prominently feature "Shaurya Spatial Labs". Explain the massive impact of the title tag on rankings.
+
+Homepage Meta Description: Write a compelling meta description for the homepage that includes the brand name and a clear call-to-action. Explain its role in improving click-through rates (CTR).
+
+Homepage Content & Headings: Analyze the homepage content. Instruct on where and how to strategically place the exact keyword "Shaurya Spatial Labs". Specify the correct use of the <h1> tag for the main heading and <h2> tags for subheadings. The brand name must be in the <h1> tag.
+
+Internal Linking: Explain the concept of creating an "About Us" or "Contact Us" page and linking to it from the homepage. Explain how this helps establish site structure and legitimacy.
+
+Image Alt Text: Instruct on adding descriptive alt text to images on the homepage, ensuring at least one includes the brand name.
+
+Phase 3: Building Initial Off-Page Authority & Digital Footprint (Priority: Medium)
+
+Google Business Profile (GBP): Detail the importance of creating a Google Business Profile for "Shaurya Spatial Labs," even if it's a digital-only company. Explain how this directly creates a powerful entity in Google's Knowledge Graph, associating the name with the website.
+
+Social Media Profiles: Recommend creating profiles on key platforms (e.g., LinkedIn, X/Twitter, Facebook) using the exact name "Shaurya Spatial Labs" and linking back to the website in the profile bio. Explain how this validates the brand's existence.
+
+NAP Consistency: Emphasize the importance of consistent Name, Address (if applicable), and Phone Number across all digital properties, including the website's footer or contact page and the GBP.
+

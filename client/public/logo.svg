@@ -1,0 +1,97 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for visual effects -->
+    <radialGradient id="earthGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#7CB342"/>
+      <stop offset="50%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </radialGradient>
+    
+    <radialGradient id="dataGradient" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="50%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#F57C00"/>
+    </radialGradient>
+    
+    <radialGradient id="networkGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </radialGradient>
+    
+    <linearGradient id="arcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="50%" stop-color="#29B6F6"/>
+      <stop offset="100%" stop-color="#0288D1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Globe with continents -->
+  <circle cx="300" cy="200" r="90" fill="url(#earthGradient)" stroke="#2E7D32" stroke-width="2"/>
+  
+  <!-- Continent shapes on globe -->
+  <path d="M270 160 Q290 150 310 160 Q320 170 315 185 Q300 190 285 185 Q270 175 270 160Z" fill="#66BB6A"/>
+  <path d="M290 200 Q310 195 320 210 Q315 225 300 230 Q285 225 290 200Z" fill="#66BB6A"/>
+  <path d="M250 190 Q265 185 275 200 Q270 215 255 210 Q245 200 250 190Z" fill="#66BB6A"/>
+  
+  <!-- Globe latitude/longitude lines -->
+  <ellipse cx="300" cy="200" rx="90" ry="45" fill="none" stroke="#81C784" stroke-width="1" opacity="0.6"/>
+  <ellipse cx="300" cy="200" rx="90" ry="30" fill="none" stroke="#81C784" stroke-width="1" opacity="0.4"/>
+  <line x1="210" y1="200" x2="390" y2="200" stroke="#81C784" stroke-width="1" opacity="0.6"/>
+  <line x1="270" y1="110" x2="330" y2="290" stroke="#81C784" stroke-width="1" opacity="0.4"/>
+  <line x1="330" y1="110" x2="270" y2="290" stroke="#81C784" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Data visualization sphere (top right) -->
+  <circle cx="420" cy="120" r="35" fill="none" stroke="#29B6F6" stroke-width="2" opacity="0.8"/>
+  <circle cx="425" cy="115" r="3" fill="#29B6F6"/>
+  <circle cx="435" cy="125" r="2" fill="#42A5F5"/>
+  <circle cx="415" cy="135" r="2" fill="#42A5F5"/>
+  <circle cx="440" cy="140" r="1.5" fill="#64B5F6"/>
+  <circle cx="405" cy="125" r="1.5" fill="#64B5F6"/>
+  <circle cx="430" cy="105" r="1" fill="#90CAF9"/>
+  <circle cx="410" cy="145" r="1" fill="#90CAF9"/>
+  
+  <!-- Network visualization (left) -->
+  <g fill="url(#networkGradient)" stroke="#4CAF50" stroke-width="1.5">
+    <!-- Network nodes -->
+    <circle cx="150" cy="160" r="6"/>
+    <circle cx="180" cy="140" r="4"/>
+    <circle cx="170" cy="180" r="4"/>
+    <circle cx="200" cy="170" r="3"/>
+    <circle cx="190" cy="200" r="3"/>
+    <circle cx="140" cy="190" r="3"/>
+    <circle cx="160" cy="210" r="2"/>
+    
+    <!-- Network connections -->
+    <line x1="150" y1="160" x2="180" y2="140"/>
+    <line x1="150" y1="160" x2="170" y2="180"/>
+    <line x1="150" y1="160" x2="200" y2="170"/>
+    <line x1="180" y1="140" x2="200" y2="170"/>
+    <line x1="170" y1="180" x2="190" y2="200"/>
+    <line x1="150" y1="160" x2="140" y2="190"/>
+    <line x1="170" y1="180" x2="160" y2="210"/>
+  </g>
+  
+  <!-- Data flow arcs -->
+  <path d="M220 180 Q260 120 380 130" fill="none" stroke="url(#arcGradient)" stroke-width="6" opacity="0.7"/>
+  <path d="M200 220 Q280 280 380 260" fill="none" stroke="#4FC3F7" stroke-width="4" opacity="0.6"/>
+  
+  <!-- Orbital ring around globe -->
+  <ellipse cx="300" cy="200" rx="120" ry="60" fill="none" stroke="#81C784" stroke-width="3" opacity="0.5" transform="rotate(15 300 200)"/>
+  
+  <!-- Data visualization bars (bottom right) -->
+  <g transform="translate(350, 250)">
+    <rect x="0" y="20" width="8" height="40" fill="#1976D2"/>
+    <rect x="12" y="10" width="8" height="50" fill="#1E88E5"/>
+    <rect x="24" y="25" width="8" height="35" fill="#2196F3"/>
+    <rect x="36" y="5" width="8" height="55" fill="#42A5F5"/>
+    <rect x="48" y="15" width="8" height="45" fill="#64B5F6"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="500" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1A237E">
+    SHAURYA
+  </text>
+  <text x="500" y="220" font-family="Arial, sans-serif" font-size="32" font-weight="300" fill="#3F51B5" letter-spacing="4px">
+    SPATIAL LABS
+  </text>
+</svg>

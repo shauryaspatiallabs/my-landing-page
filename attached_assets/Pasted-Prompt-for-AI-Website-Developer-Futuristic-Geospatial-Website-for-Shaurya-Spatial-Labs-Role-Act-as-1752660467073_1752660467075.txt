@@ -1,0 +1,54 @@
+Prompt for AI Website Developer: Futuristic Geospatial Website for Shaurya Spatial Labs
+Role: Act as a world-class web developer and UI/UX designer, a true expert in creating immersive, high-tech, and futuristic websites for specialized technology firms. Your task is to design and develop a cutting-edge website for "Shaurya Spatial Labs," a premium geospatial solutions architecture and development company.
+I. Core Vision & Atmosphere
+Primary Goal: The website must be an experience, not just a brochure. It should feel like interacting with a "futuristic geospatial command center" or a high-end data visualization interface.
+Keywords: Futuristic, immersive, high-tech, professional, data-driven, premium, innovative, architectural, sophisticated, dark-themed.
+Target Audience: Enterprise clients, project managers in utility and environmental sectors, government agencies, and technical teams seeking expert-level GIS consulting.
+II. Design, Aesthetics, and Branding
+Color Palette:
+Background: A deep, dark navy blue or charcoal gray (e.g., #0A192F or #0f172a), possibly with a subtle grid overlay or a faint, slow-moving starfield/nebula effect to add depth.
+Accent Colors: A vibrant, glowing cyan or teal (e.g., #64ffda) for primary call-to-actions, interactive highlights, and data visualizations. A secondary accent of a bright, electric blue (e.g., #3b82f6) for links and secondary UI elements.
+Text: A crisp, off-white or very light gray (e.g., #e2e8f0 or #ccd6f6) for maximum readability against the dark background.
+Typography:
+Headings: A clean, modern, and slightly technical sans-serif font. "Space Grotesk," "Inter," or "Oxanium" would be excellent choices.
+Body Text: A highly legible and clean sans-serif font like "Roboto," "Open Sans," or "Lato."
+Imagery & Visuals:
+Use high-resolution, abstract, and authentic geospatial imagery: satellite photos of city lights at night, 3D terrain models, LiDAR point clouds, network graphs, and stylized data visualizations.
+Icons for the services section should be custom-designed, minimalist line icons that match the futuristic, high-tech theme. They should animate subtly on hover.
+III. Dynamic, Interactive, and Immersive Elements
+This is the most critical part. The site must feel alive with data.
+Hero Section - The Command Center:
+Background: Create a stunning, interactive 3D globe as the central background element. The user should be able to click and drag to rotate it.
+Data Overlays: Animate glowing data layers and arcs over the globe, representing things like global data traffic, flight paths, weather patterns, or shipping lanes. This should be a continuous, subtle animation.
+Code Animation: The "code rain" effect from the original HTML is a good concept. Evolve it by using authentic, relevant code snippets (ArcPy, Google Earth Engine, SQL queries) that float up or cascade down in a more organized, less chaotic fashion.
+Services Section - Interactive Data Cards:
+When a user hovers over a service card, don't just change the color. Trigger a small, relevant micro-interaction or data visualization within the card. For example:
+Enterprise Architecture: An animated diagram of a server architecture appears.
+Utility Network Solutions: A glowing network graph with animated nodes and edges fades in.
+Mobile GIS Ecosystem: A smartphone mockup animates to show a map with data points pulsing.
+Live Data Showcase:
+Include a dedicated section with a world map that visualizes a live or near-live data feed via an API. Examples: global earthquake data (USGS API), real-time air traffic, or global weather data. This will be a powerful, real-time demonstration of the company's capabilities.
+Scrolling Animations:
+Parallax Effect: Use parallax scrolling on background images and visual elements to create a deep, multi-layered feel.
+Reveal Animations: As the user scrolls, elements should fade in and slide into place smoothly and elegantly. Animate data points and charts to build as they enter the viewport.
+IV. Content & Structure (Based on Provided HTML)
+Navigation: A sleek, fixed navigation bar with links to "About," "Services," "Technologies," and "Contact."
+Hero Section:
+Headline: Shaurya Spatial Labs
+Sub-headline: Premium Geospatial Solutions Architecture & Development
+Description: "End-to-end GIS and geospatial solution architecture for enterprises of any scale. Leveraging 7+ years of expertise in ArcGIS Enterprise, Google Earth Engine, and cutting-edge automation to deliver personalized solutions that drive operational excellence."
+About Section:
+Maintain the personal touch about the founder, Shaurya Arora.
+Feature a professional photo of the founder, perhaps with a subtle data overlay effect.
+Include the founder's name, title ("Founder & Lead Architect"), and "7+ Years of Excellence."
+Services Section:
+Use the existing service descriptions from the HTML. Present them in the interactive card format described above.
+Technologies Section:
+Showcase the technology stack in a visually engaging grid. Logos for each technology should be monochrome and light up with their original color on hover.
+Contact Section:
+Provide direct contact information clearly and professionally.
+Include a prominent call-to-action with glowing, futuristic buttons for "Call Now" and "Email for Consultation."
+V. Technical Specifications
+Responsiveness: The website must be flawlessly responsive and optimized for all devices, from large desktops to mobile phones. The interactive elements must adapt gracefully to smaller screens.
+Performance: Despite the animations and interactive features, the site must be highly performant. Optimize all assets, use lazy loading for images, and ensure smooth animations (using hardware acceleration where possible).
+Accessibility: The website must be fully accessible. Ensure high color contrast, proper use of ARIA labels for interactive elements, and full keyboard navigability.
