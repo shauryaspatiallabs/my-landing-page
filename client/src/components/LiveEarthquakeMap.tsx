@@ -35,7 +35,7 @@ const LiveEarthquakeMap = () => {
       } catch (error) {
         console.error('Error fetching earthquake data:', error);
         // Fallback to demo data if API fails
-        const demoData = [
+        const demoData: Earthquake[] = [
           { magnitude: 4.2, place: "Northern California", time: Date.now() - 3600000, coordinates: [-122.4, 37.8] },
           { magnitude: 3.8, place: "Southern Japan", time: Date.now() - 7200000, coordinates: [139.7, 35.7] },
           { magnitude: 5.1, place: "Chile Coast", time: Date.now() - 10800000, coordinates: [-71.5, -33.0] },
